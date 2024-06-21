@@ -1,0 +1,45 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: 0;
+}
+.header{
+  padding: 100px 0;
+  color:rgb(red, green, blue);
+  background-color: rgb(121, 202, 152);
+  background-size: fill;
+}
+.title{
+  text-align: center;
+}
+main > section#section > div.contenedor > div.img, 
+main > section#section > div.contenedor > div#img, section.section
+{
+  background-image:url(tomas.jpg);
+  background-size:cover ;
+  background-image: linear-gradient(to top, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 90%, #b12a5b 100%) 0.50%;
+}
+.img, #img{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+section.section{
+  height: 250px;
+}
+.titulo{
+  font-size: 40px;
+  margin-top: 250px;
+  color: white;
+}
+p{
+  color: white;
+}
+main{
+  height: 300vh;
+}
